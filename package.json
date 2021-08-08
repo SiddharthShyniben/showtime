@@ -5,7 +5,8 @@
 	"main": "lib/index.js",
 	"scripts": {
 		"test": "xo && jest",
-		"build": "tsc"
+		"build": "tsc",
+		"lint": "xo --fix"
 	},
 	"repository": {
 		"type": "git",
