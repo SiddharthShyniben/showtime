@@ -1,0 +1,9 @@
+# node modules
+node_modules/
+
+# vim
+.vim/
+**/*.swp
+
+# my experiments
+playground/
