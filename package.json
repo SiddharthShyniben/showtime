@@ -1,0 +1,26 @@
+{
+  "name": "showtime",
+  "version": "1.0.0",
+  "description": "Terminal Interface Library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddshy/showtime.git"
+  },
+  "keywords": [
+    "terminal",
+    "ui",
+    "interface",
+    "cli",
+    "tui"
+  ],
+  "author": "SiddharthShyniben <siddharth.muscat@gmail.com> (https://github.com/SiddharthShyniben)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddshy/showtime/issues"
+  },
+  "homepage": "https://github.com/siddshy/showtime#readme"
+}
