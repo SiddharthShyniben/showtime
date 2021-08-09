@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "xo && jest",
 		"build": "tsc",
-		"lint": "xo --fix"
+		"lint": "xo --fix --ignore lib/**"
 	},
 	"repository": {
 		"type": "git",
