@@ -4,7 +4,7 @@
 	"description": "Terminal Interface Library",
 	"main": "lib/index.js",
 	"scripts": {
-		"test": "npm run lint && jest --config jestconfig.json",
+		"test": "npm run lint && jest --config jest.config.json",
 		"build": "tsc",
 		"lint": "xo --fix --ignore lib"
 	},
