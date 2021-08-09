@@ -6,7 +6,10 @@
 	"scripts": {
 		"test": "npm run lint && jest --config jest.config.json",
 		"build": "tsc",
-		"lint": "xo --fix --ignore lib"
+		"lint": "xo --fix --ignore lib",
+		"prepare" : "npm run build",
+		"prepublishOnly" : "npm run test",
+		"preversion" : "npm run lint"
 	},
 	"files": [
 		"lib/**/*"
