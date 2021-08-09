@@ -6,8 +6,11 @@
 	"scripts": {
 		"test": "xo && jest",
 		"build": "tsc",
-		"lint": "xo --fix --ignore lib/**"
+		"lint": "xo --fix --ignore lib"
 	},
+	"files": [
+		"lib/**/*"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/siddshy/showtime.git"
